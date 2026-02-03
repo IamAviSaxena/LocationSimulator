@@ -23,8 +23,7 @@ jobs:
       
       - name: Build LocationSimulator
         run: |
-          xcodebuild -project LocationSimulator.xcodeproj \ \
-              CODE_SIGN_IDENTITY="" \
+          xcodebuild -project LocationSimulator.xcodeproj -scheme LocationSimulator -configuration Release -derivedDataPath ./build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO clean build          CODE_SIGN_IDENTITY="" \
               CODE_SIGNING_REQUIRED=NO \
               CODE_SIGNING_ALLOWED=NO
             -scheme LocationSimulator \
