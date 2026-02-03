@@ -14,7 +14,7 @@
   <h2 align="center">LocationSimulator</h2>
 </div>
 
-LocationSimulator is a macOS app (10.15.x and later) which allows spoofing the location of an iOS or iPhoneSimulator device. The target audience of this project are developers who want to test their location service based application. I do not encourage the use of this application to cheat in iOS games and I do not provide support for these games. If you use this application outside of the intended purposes, you are on your own.
+LocationSimulator is a macOS app (12.0.x and later) which allows spoofing the location of an iOS or iPhoneSimulator device. The target audience of this project are developers who want to test their location service based application. I do not encourage the use of this application to cheat in iOS games and I do not provide support for these games. If you use this application outside of the intended purposes, you are on your own.
 
 ![LocationSimulator screenshot](Preview/screenshot.png)
 
@@ -94,8 +94,8 @@ Since this project has gotten quite big over time, I exported some of the code t
 
 ### Requirements
 
-- macOS 10.15+
-- macOS 11.x+ SDK
+- macOS 12.0+
+Xcode 16+ SDK
 - swift 5.0+
 - swift-tools-version 5.2+
 - [jekyll](https://jekyllrb.com) (and a symlink of jekyll to `/usr/local/bin/jekyll`)
